@@ -16,4 +16,4 @@ class Categoria(Base):
     produtos = relationship(
         "Produto", 
         back_populates="categoria",
-        cascade="all, delete-orphan")
+    )

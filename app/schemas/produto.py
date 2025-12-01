@@ -4,11 +4,10 @@ from typing import Optional
 class ProdutoBase(BaseModel):
     nome: str
     preco: float
-    categoria_id: int
+    categoria_id: Optional[int] = None
     descricao: Optional[str] = None 
     imagem_url: Optional[str] = None 
     ingredientes: Optional[str] = None 
-    #
 
 class ProdutoCreate(ProdutoBase):
     pass

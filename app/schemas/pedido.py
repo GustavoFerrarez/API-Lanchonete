@@ -2,7 +2,7 @@ from pydantic import BaseModel, ConfigDict
 from typing import Optional
 
 class PedidoBase(BaseModel):
-    usuario_id: int
+    usuario_id: Optional[int] = None
     observacoes: Optional[str] = None
 
 class PedidoCreate(PedidoBase):

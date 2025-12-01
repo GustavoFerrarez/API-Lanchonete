@@ -17,7 +17,7 @@ class Produto(Base):
 
     categoria_id = Column(
         Integer, 
-        ForeignKey("categorias.id", ondelete="CASCADE"),
-        nullable=False
+        ForeignKey("categorias.id", ondelete="SET NULL"),
+        nullable=True
     )
     categoria = relationship("Categoria", back_populates="produtos")
