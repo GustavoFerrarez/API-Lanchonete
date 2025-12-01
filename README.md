@@ -113,7 +113,7 @@ Embora funcional, o projeto possui simplificações adotadas para atender ao pra
 3.  **Limitações:**
     * **Limitação:** O projeto foi testado manualmente. Mesmo completo tudo nele é apenas uma simulação.
     * **Melhoria Futura:** Os endereços não ficam salvo no teste, eles precisam ser inseridos novamente caso necessário.
-    * * **Melhoria Entrega:** Opção de entrega inválida, nele você não consegue escolher a sua forma de entrega.
+    * **Melhoria Entrega:** Opção de entrega inválida, nele você não consegue escolher a sua forma de entrega.
 
 ### Observações
 
