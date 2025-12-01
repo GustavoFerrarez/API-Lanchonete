@@ -14,6 +14,7 @@ class ItemPedidoUpdate(BaseModel):
 class ItemPedidoOut(ItemPedidoBase):
     id: int
     pedido_id: int
+    produto_id: Optional[int] = None
     preco_unitario: float
     subtotal: float # Vamos calcular isso no repositório
     
